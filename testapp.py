@@ -13,4 +13,4 @@ class flaskAppTests(unittest.TestCase):
         self.assertEqual(response.json, {'mssg':'hello, world'})
         
 if __name__ =='__main__':
-    unittest.main
+    unittest.main()
