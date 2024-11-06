@@ -10,7 +10,7 @@ class flaskAppTests(unittest.TestCase):
     def test_home(self):
         response =self.app.get('/')
         self.assertEqual(response.status_code,200)
-        self.assertEqual(response.json, {'msg':'Hello level 400 FET, Quality Assurance!'})
+        self.assertEqual(response.json, {'message':'Hello level 400 FET, Quality Assurance!'})
         
 if __name__ =='__main__':
     unittest.main()
